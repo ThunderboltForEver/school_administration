@@ -15,14 +15,16 @@ In order to run this project perfectly on your machine , follow instrunctions do
 
 5- php artisan migrate .
 
-6- php artisan key:generate
+6- cp .env.example .env
 
-7- php artisan storage:link
+7- php artisan key:generate
 
-8- cd project_frontend -> npm install
+8- php artisan storage:link
 
-9- npm run dev
+9- cd project_frontend -> npm install
 
-10- open a new terminal with keeping the first one running and run -> php artisan serve
+10- npm run dev
 
-11- open your browser at localhost:3000 and enjoy with the project .
+11- open a new terminal with keeping the first one running and run -> php artisan serve
+
+12- open your browser at localhost:3000 and enjoy with the project .
