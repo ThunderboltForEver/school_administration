@@ -17,10 +17,12 @@ In order to run this project perfectly on your machine , follow instrunctions do
 
 6- php artisan key:generate
 
-7- cd project_frontend -> npm install
+7- php artisan storage:link
 
-8- npm run dev
+8- cd project_frontend -> npm install
 
-9- open a new terminal with keeping the first one running and run -> php artisan serve
+9- npm run dev
 
-10- open your browser at localhost:3000 and enjoy with the project .
+10- open a new terminal with keeping the first one running and run -> php artisan serve
+
+11- open your browser at localhost:3000 and enjoy with the project .
